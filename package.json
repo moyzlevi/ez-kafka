@@ -1,5 +1,6 @@
 {
   "name": "ez-kafka",
+  "type": "module",
   "version": "1.0.0",
   "description": "A cli program for handling kafka console commands",
   "main": "index.js",
@@ -11,9 +12,10 @@
     "commander": "2.19.0",
     "figlet": "1.2.1",
     "inquirer": "6.2.2",
+    "ora": "^6.1.0",
     "shelljs": "0.8.3"
   },
   "bin": {
-    "ezkafka": "index.js"
+    "ezkafka": "src/index.js"
   }
 }
