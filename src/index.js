@@ -6,8 +6,8 @@ import start from './actions/start.js'
 program.version(process.env.npm_package_version);
 
 program
-    .command('start')
-    .description('Set kafka bin location')
+    .command('start [location]')
+    .description('Set kafka location path')
     .action(start);
 
 program.parse(process.argv);
